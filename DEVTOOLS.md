@@ -42,7 +42,8 @@ I also changed the background color using the Styles panel and observed that the
 | Load time (Slow 4G) | 14.12 s |
 | Largest file and its size | fa-solid-900.woff2, 80.8 kb |
 
-# Reflection: "Why does the page make so many requests, and what does the Slow 4G result tell you about users with weak signal here in Davao Oriental?"
+
+Why does the page make so many requests, and what does the Slow 4G result tell you about users with weak signal here in Davao Oriental?
 
 Various files (for example, HTML, CSS, JavaScript, images, and fonts) are requested by the DOrSU website so that a full website can be displayed. From my findings, I identified that 78 files were requested and 2.5MB of data was sent. With no throttling, the site loaded in 2.25 seconds. However, with Slow 4G, it took 14.12 seconds. Thus, students or staff in areas of Davao Oriental that have poor or inconsistent internet connections may face increased website loading times. Because of that, websites like DOrSU's should be optimised to improve loading speed and user experience.
 
