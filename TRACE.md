@@ -24,34 +24,22 @@ There are six stages:
 - HTTP Response
 - Rendering
 
-1. The URL
+1. The URL - I used the URL https://www.dorsu.edu.ph as an example. The protocol (https://) tells the browser how to communicate securely with the website, while the domain name (www.dorsu.edu.ph) identifies the website's address. The path (/) identifies the specific page or location being requested.
 
-I used the URL https://www.dorsu.edu.ph as an example. The protocol (https://) tells the browser how to communicate securely with the website, while the domain name (www.dorsu.edu.ph) identifies the website's address. The path (/) identifies the specific page or location being requested.
+2. DNS Lookup - Computers communicate using IP addresses, so the browser needs to translate the domain name into an IP address before it can locate the website's server. The browser sends a DNS query to a DNS server, which looks up the domain name and returns its corresponding IP address. I used the nslookup command to find the IP addresses associated with www.dorsu.edu.ph.
 
-2. DNS Lookup
+3. Connection - After obtaining the IP address, the browser gets the site's IP address and then connects to the web server using TCP. If the site is secure, like those that use HTTPS, the browser also sets up a secure connection with TLS. This encrypts the data that goes back and forth between the browser and server, which helps keep your personal info safe.
 
-Computers communicate using IP addresses, so the browser needs to translate the domain name into an IP address before it can locate the website's server. The browser sends a DNS query to a DNS server, which looks up the domain name and returns its corresponding IP address. I used the nslookup command to find the IP addresses associated with www.dorsu.edu.ph.
+4. HTTP Request - Once the connection is established, the browser sends an HTTP request to the web server to ask for the requested webpage. It uses the GET method, with the path / when requesting the DOrSU homepage, and includes headers that provide additional information about the request, which tells the server which resource the browser wants to access.
 
-3. Connection
+5. HTTP Response - The web server receives the HTTP request, processes it, and then sends back an HTTP response to the browser. The response will contain a status code, a set of headers, and the requested content (e.g., HTML, which is the structure of the page).
 
-After obtaining the IP address, the browser gets the site's IP address and then connects to the web server using TCP. If the site is secure, like those that use HTTPS, the browser also sets up a secure connection with TLS. This encrypts the data that goes back and forth between the browser and server, which helps keep your personal info safe.
-
-4. HTTP Request
-
-Once the connection is established, the browser sends an HTTP request to the web server to ask for the requested webpage. It uses the GET method, with the path / when requesting the DOrSU homepage, and includes headers that provide additional information about the request, which tells the server which resource the browser wants to access.
-
-5. HTTP Response
-
-The web server receives the HTTP request, processes it, and then sends back an HTTP response to the browser. The response will contain a status code, a set of headers, and the requested content (e.g., HTML, which is the structure of the page).
-
-6. Rendering
-
-Once the HTML document has been received, the browser gets to work rendering the page. It builds the DOM from the HTML, creates the CSSOM from the CSS, works out the layout of the elements (the layout phase), and then paints the page (the painting phase). It will also make further requests to get the CSS, JS, and images that are required to fully render the page.
+6. Rendering - Once the HTML document has been received, the browser gets to work rendering the page. It builds the DOM from the HTML, creates the CSSOM from the CSS, works out the layout of the elements (the layout phase), and then paints the page (the painting phase). It will also make further requests to get the CSS, JS, and images that are required to fully render the page.
 
 # URL Trace Diagram
 <img width="3816" height="2012" alt="trace-diagram" src="https://github.com/user-attachments/assets/cabe8de5-a481-4321-91c4-8519a17a920b" />
 
-
+# Follow-up Questions
 1. In your trace, which computer is the client and which is the server?
 
 My computer using Google Chrome acts as a client, as it is issuing requests for data from the DOrSU web page. The server is the computer that is hosting the DOrSU website from the University itself. It accepts these requests and then replies to my browser by providing the relevant web page.
@@ -60,6 +48,7 @@ My computer using Google Chrome acts as a client, as it is issuing requests for 
 2. If the DNS lookup fails, what does the user see in the browser?
 
 If the DNS lookup fails, then it will not know what IP Address the website has and will therefore be unable to connect. Instead, you will receive an error message: "This site can't be reached" or “DNS_PROBE_FINISHED_NXDOMAIN”.
+
 
 3. What is the difference between status codes 200, 301 and 404? Give a real-life situation for each.
 
