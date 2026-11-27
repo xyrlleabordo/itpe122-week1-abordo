@@ -5,7 +5,8 @@ https://www.dorsu.edu.ph
 
 Command used: 
 
-<img width="935" height="34" alt="Screenshot 2026-11-27 060016" src="https://github.com/user-attachments/assets/427bd279-801e-4c09-9e70-62ff8a359519" />
+<img width="935" height="34" alt="Screenshot 2026-11-27 060016" src="https://github.com/user-attachments/assets/d2b6f158-437a-41cd-8d6c-035354f95ea1" />
+
 
 
 Output:
