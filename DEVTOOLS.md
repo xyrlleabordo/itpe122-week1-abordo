@@ -2,9 +2,9 @@
 
  # Elements Panel
 
-Right-clicking on the DOrSU logo and clicking ‘Inspect’ opens up the Elements section of Chrome DevTools. This highlighted the element, which includes the source (src), alternative text (alt), width, and height of the logo.
+Right-clicking on the DOrSU logo and clicking ‘Inspect’ opens up the Elements section of Chrome DevTools. This highlights the elements, which include the source (src), alternative text (alt), width, and height of the logo.
 
-<img width="845" height="414" alt="b1-elements-2" src="https://github.com/user-attachments/assets/52ad13ed-5fbd-4a4e-bb93-d6e3b3de3422" />
+<img width="845" height="414" alt="b1-elements" src="https://github.com/user-attachments/assets/a87ad963-9ee3-47af-bc62-d1438e3ec47f" />
 
 I then looked for an editable text box. Upon double-clicking it, I typed in my full name and reloaded the web page to see what would happen.
 
@@ -25,4 +25,19 @@ That is because another CSS rule has higher priority or overrides it.
 
 I also changed the background color using the Styles panel and observed that the webpage's appearance changed immediately.
 
+# Network Panel
 
+<img width="857" height="411" alt="b3-network" src="https://github.com/user-attachments/assets/973e6cc7-ef22-4f22-a387-988fc5b56ee7" />
+
+| What I checked | My finding |
+| --- | --- |
+| Request URL | https://dorsu.edu.ph/ |
+| Request method | GET |
+| Status code | 200 OK |
+| Content-Type (response header) | text/html; charset=UTF-8 |
+| Server (response header, if shown) | cloudflare |
+| Total number of requests | 78 |
+| Total data transferred | 2.5 MB |
+| Load time (no throttling) | 2.25 s |
+| Load time (Slow 4G) | 14.12 s |
+| Largest file and its size | fa-solid-900.woff2, 80.8 kb |
