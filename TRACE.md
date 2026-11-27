@@ -49,7 +49,8 @@ The web server receives the HTTP request, processes it, and then sends back an H
 Once the HTML document has been received, the browser gets to work rendering the page. It builds the DOM from the HTML, creates the CSSOM from the CSS, works out the layout of the elements (the layout phase), and then paints the page (the painting phase). It will also make further requests to get the CSS, JS, and images that are required to fully render the page.
 
 # URL Trace Diagram
-<img width="3816" height="2012" alt="trace-diagram" src="https://github.com/user-attachments/assets/ea22d6b2-8e2f-42d6-88d4-c2a44b3eed05" />
+<img width="3816" height="2012" alt="trace-diagram" src="https://github.com/user-attachments/assets/cabe8de5-a481-4321-91c4-8519a17a920b" />
+
 
 1. In your trace, which computer is the client and which is the server?
 
