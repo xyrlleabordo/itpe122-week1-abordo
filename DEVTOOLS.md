@@ -28,3 +28,8 @@ With an element selected, I found its color, font-family, and font-size in the C
 Inside the Styles tab, I found some CSS properties crossed out.
 
 That is because another CSS rule has higher priority or overrides it. I also changed the background color using the Styles panel and observed that the webpage's appearance changed immediately.
+
+<img width="959" height="409" alt="b2-styles-3" src="https://github.com/user-attachments/assets/78d280b1-d8a8-4c46-8fd4-6aa3e6370db9" />
+
+I also changed the element's background color.
+
