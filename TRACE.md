@@ -11,7 +11,8 @@ Command used:
 
 Output:
 
-<img width="959" height="321" alt="Screenshot 2026-11-27 060031" src="https://github.com/user-attachments/assets/a1e4f160-0dc8-4efc-b8d0-04410a87d683" />
+<img width="959" height="321" alt="Screenshot 2026-11-27 060031" src="https://github.com/user-attachments/assets/9b704d3e-2731-40f7-9a35-cf6211600e63" />
+
 
 ## The Journey of a URL
 
