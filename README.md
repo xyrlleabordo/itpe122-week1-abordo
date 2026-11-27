@@ -1,7 +1,9 @@
 ## ITPE 122 - Week 1 Assignment
 
 Full Name: Xyrlle L. Abordo
+
 Section: IT2E
+
 GitHub Username: xyrlleabordo
 
 # What I Want to Build
